@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## demo
+
+![](public/starwars.gif)
+
 ## libraries
 
 - [SWR](https://github.com/vercel/swr) A React Hooks library for remote data fetching.
