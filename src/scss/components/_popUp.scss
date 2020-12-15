@@ -1,0 +1,61 @@
+.pop-up {
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.pop-up-content {
+  animation: enter 0.5s;
+  background-color: var(--background);
+  border-left: 2px solid var(--laserGreen);
+  overflow-y: auto;
+  top: 0;
+  padding: 60px 20px 20px 30px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  height: 100vh;
+
+  @include md {
+    width: 80%;
+    padding: 60px 40px 20px 50px;
+    height: 100vh;
+  }
+
+  @include lg {
+    width: 50%;
+  }
+
+  @keyframes enter {
+    from {
+      transform: translateX(500px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+.close {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.title-background {
+  position: absolute;
+  opacity: 0.1;
+  font-size: 7.4rem;
+  font-weight: 700;
+  right: 0;
+  top: 90px;
+  color: white;
+  writing-mode: vertical-rl;
+  user-select: none;
+}

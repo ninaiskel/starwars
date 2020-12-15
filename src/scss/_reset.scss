@@ -1,0 +1,60 @@
+:root {
+  --background: #0f0f0f;
+  --black: #1f1f1f;
+  --textGray: #b8b5b5;
+  --laserGreen: #4ffc92;
+  --yellow: #ffb13a;
+  --gray: #515151;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background: url(../texture.png);
+  background-color: var(--background);
+  background-size: 80%;
+  background-repeat: repeat;
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}

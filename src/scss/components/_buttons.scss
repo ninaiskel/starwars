@@ -1,0 +1,29 @@
+.button {
+  background: var(--laserGreen);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 3px rgba(38, 231, 64, 0.65);
+  color: black;
+  font-size: 1.6rem;
+  padding: 10px 15px;
+  position: relative;
+  margin: 0 10px;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &-back {
+    svg {
+      transform: rotate(180deg);
+      margin-right: 10px;
+    }
+  }
+
+  &-next {
+    svg {
+      margin-left: 10px;
+    }
+  }
+}

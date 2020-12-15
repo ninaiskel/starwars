@@ -1,0 +1,57 @@
+.wrap-home {
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 66px);
+}
+
+.home {
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+  max-width: 1080px;
+  height: 1200px;
+  transform: perspective(250px) rotateX(14deg);
+  animation: scrollHome 34s linear infinite;
+
+  h2 {
+    text-align: center;
+    margin: 0 0 60px 0;
+    font-size: 5rem;
+
+    @include md {
+      font-size: 6rem;
+      margin: 0 0 80px 0;
+    }
+  }
+
+  h2,
+  p {
+    color: var(--yellow);
+  }
+
+  p {
+    font-size: 3rem;
+    line-height: 6rem;
+    margin-bottom: 20px;
+
+    @include md {
+      font-size: 5rem;
+      line-height: 8rem;
+    }
+  }
+}
+
+@keyframes scrollHome {
+  0% {
+    transform: perspective(250px) rotateX(14deg) translateY(680px);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: perspective(250px) rotateX(14deg) translateY(-1000px);
+    opacity: 0;
+  }
+}

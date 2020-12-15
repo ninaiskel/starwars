@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## libraries
+
+- [SWR](https://github.com/vercel/swr) A React Hooks library for remote data fetching.
+- [Sass](https://sass-lang.com/) A preprocessor scripting language that is compiled into CSS (Cascading Style Sheets)
+
 ## Available Scripts
 
 In the project directory, you can run:

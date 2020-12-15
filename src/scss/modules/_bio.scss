@@ -1,0 +1,67 @@
+.description {
+  padding: 20px 0;
+
+  @include md {
+    padding: 0px 0 40px;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+    @include sm {
+      font-size: 3rem;
+    }
+  }
+
+  ul {
+    @include xs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  li,
+  a {
+    color: white;
+    font-size: 1.5rem;
+
+    @include sm {
+      font-size: 1.8rem;
+    }
+  }
+
+  li {
+    margin: 0 5px 10px;
+
+    @include xs {
+      width: calc(50% - 10px);
+    }
+
+    h4 {
+      margin-bottom: 4px;
+    }
+  }
+
+  span {
+    color: var(--textGray);
+    margin-right: 10px;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  &-feature {
+    li {
+      margin: 0 5px 40px;
+      span {
+        display: block;
+        margin-right: 0;
+        font-size: 1.5rem;
+        margin-top: 5px;
+      }
+    }
+  }
+}

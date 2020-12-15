@@ -1,0 +1,32 @@
+.list-card {
+  background: var(--black);
+  border-radius: 6px;
+  margin: 10px;
+  position: relative;
+
+  &:after {
+    content: '';
+    background: url(../../svgs/form.svg);
+    bottom: 0px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    z-index: 0;
+  }
+
+  a {
+    width: 100%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: var(--textGray);
+  }
+}
