@@ -2,5 +2,8 @@
   "pilots": "pilots",
   "starships": "starships",
   "title": "Scape of the Jedi",
-  "description": ""
+  "description": {
+    "partOne": "Long time ago in a galaxy far, far away a young Jedi has fled his land in search of a new life and new challenges.",
+    "partTwo": "Landed with his ship to Spain, the adventure has begun..."
+  }
 }

@@ -9,8 +9,9 @@ function App() {
     <Router>
       <Suspense fallback="loading">
         <Header />
+
+        <Routes />
       </Suspense>
-      <Routes />
     </Router>
   );
 }

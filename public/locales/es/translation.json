@@ -2,5 +2,8 @@
   "pilots": "pilotos",
   "starships": "naves",
   "title": "Escape del Jedi",
-  "description": ""
+  "description": {
+    "partOne": "Hace mucho tiempo, en una galaxia muy, muy lejana, un joven Jedi ha huido de su tierra en busca de una nueva vida y nuevos desafíos.",
+    "partTwo": "Aterrizó con su nave a España, la aventura ha comenzado ..."
+  }
 }
